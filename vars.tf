@@ -5,18 +5,18 @@ variable AWS_REGION {
 variable AMIS {
   type = map
   default = {
+    us-east-1  = "ami-06aa3f7caf3a30282"
     us-east-2  = "ami-07efac79022b86107"
-    us-east-1  = "ami-053b0d53c279acc90"
     ap-south-1 = "ami-009110a2bf8d7dd0a"
   }
 }
 
 variable PRIV_KEY_PATH {
-  default = "vprofilekey"
+  default = "freddykey"
 }
 
 variable PUB_KEY_PATH {
-  default = "vprofilekey.pub"
+  default = "freddykey.pub"
 }
 
 variable USERNAME {
